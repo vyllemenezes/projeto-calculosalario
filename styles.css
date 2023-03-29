@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    z-index: 1;
+    background: linear-gradient(-45deg, #d1ce0a, #4ddb7c, blue);
+    background-size: 400%;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    animation: animate 15s ease infinite;
+    text-align: center;
+}
+body{
+    z-index: 1;
+    background: linear-gradient(-45deg, #d1ce0a, #4ddb7c, blue);
+    background-size: 400%;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    animation: animate 15s ease infinite;
+    text-align: center;
+}
+.container2{
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    height: 150px;
+    width: 1000px;
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.9px);
+    -webkit-backdrop-filter: blur(0.9px);
+    border: 1px solid rgba(255, 255, 255, 0.39);
+}
+.container ul{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+.container ul li{
+    display: inline-block;
+    padding: 40px 45px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.container ul li img{
+    width: 200px;
+    image: 90px 0px;
+}
+.header ul li a:hover{
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+}
+.calculadora{
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.9px);
+    -webkit-backdrop-filter: blur(0.9px);
+    border: 1px solid rgba(255, 255, 255, 0.39);
+}
+form{
+    margin: 40px
+}
+.form{
+    margin: 10px;
+}
+.btn{
+    margin-top: 20px;
+    width: 200px;
+}
+.resultado{
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.9px);
+    -webkit-backdrop-filter: blur(0.9px);
+    border: 1px solid rgba(255, 255, 255, 0.39);
+}
+@keyframes animate{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
